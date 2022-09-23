@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Básico CSS</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+    - Básico sobre Estilos; (CSS externo, inline, estilização de texto e box model )
+    <br/><br/>  
+    Usando CSS <br/><br/>  
+    O CSS pode ser adicionado aos documentos HTML de 3 maneiras:
+    <br/><br/>  
+    Inline - usando o atributo dentro de elementos HTMLstyle
+    Interno - usando um elemento na seção"style" "head"<br/><br/>  
+    Externo - usando um elemento para vincular a um arquivo CSS externo "link"<br/><br/>  
+    
+    Inline CSS <br/><br/>  
+    Um CSS inline é usado para aplicar um estilo único a um único elemento HTML.
+    <br/><br/>  
+    Um CSS inline usa o atributo de um elemento HTML.style
+    <br/><br/>  
+    O exemplo a seguir define a cor do texto do elemento para azul, e a cor do texto do elemento para vermelho:"h1"<p>
+    <br/><br/>  
+    Exemplo
+    "h1 style="color:blue;">A Blue Heading"/h1"
+    
+    "p style="color:red;">A red paragraph."/p" 
+    <br/><br/>  
+    CSS interno
+    Um CSS interno é usado para definir um estilo para uma única página HTML.    
+    <br/><br/>  
+    Um CSS interno é definido na seção de uma página HTML, dentro de um elemento."head""style"
+    <br/><br/>  
+    CSS externo <br/><br/>  
+    Uma folha de estilo externa é usada para definir o estilo para muitas páginas HTML.
+    <br/><br/>  
+    Para usar uma folha de estilo externa, adicione um link a ela na seção de cada página HTML:"head" 
+    <br/><br/>  
+    
+    Cores, fontes e tamanhos do CSS <br/><br/>  
+    Aqui, vamos demonstrar algumas propriedades CSS comumente usadas. Você aprenderá mais sobre eles mais tarde.
+    <br/><br/>  
+    A propriedade CSS define a cor do texto a ser usada.color
+    <br/><br/>  
+    A propriedade CSS define a fonte a ser usada.font-family
+    <br/><br/>  
+    A propriedade CSS define o tamanho do texto a ser usado.font-size    
+    <br/><br/>  
+    A propriedade CSS define uma borda em torno de um elemento HTML.border
+    Exemplo: <br/><br/>  
+    
+    p {
+      border: 2px solid powderblue;
+    }
+    <br/><br/>  
+    A propriedade CSS define um preenchimento (espaço) entre o texto e a borda.padding
+    Exemplo:
+    <br/><br/>  
+    p {
+      border: 2px solid powderblue; <br/><br/>  
+      padding: 30px; <br/><br/>  
+    }
+    <br/><br/>  
+    A propriedade CSS define uma margem (espaço) fora da fronteira.margin <br/><br/>  
+    Exemplo:
+    <br/><br/>  
+    p {
+      border: 2px solid powderblue; <br/><br/>  
+      margin: 50px; <br/><br/>  
+    }
+    <br/><br/>  
+    Link para CSS externo <br/><br/>  
+    As folhas de estilo externa podem ser referenciadas com uma URL completa ou com um caminho relativo à página web atual.
+    <br/><br/>  
+    
+    Exemplo
+    Este exemplo usa uma URL completa para vincular a uma folha de estilo:
+    <<br/><br/>  
+    "link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">    
+    <br/><br/>  
+    Box model 
+    <br/><br/>  
+    Em CSS, o termo "modelo de caixa" é usado quando se fala de design e layout.
+    <br/><br/>  
+    O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML. Ele consiste em: margens, bordas, preenchimento e o conteúdo real. A imagem abaixo ilustra o modelo da caixa:
+    <br/><br/>  
+    <center>
+    <img style="float:inline-start" src="img/box model.png" alt="Box model"  width= "300px" height="250px">
+    </center>
+    <br/><br/>  
+    Explicação das diferentes partes:
+    <br/><br/>  
+    Content - O conteúdo da caixa, onde o texto e as imagens aparecem <p></p>
+    Padding - Limpa uma área ao redor do conteúdo. O forro é transparente <p></p>
+    Border - Uma borda que contorna o preenchimento e o conteúdo <p></p>
+    Margin - Limpa uma área fora da fronteira. A margem é transparente <p></p>
+    
+    O modelo de caixa nos permite adicionar uma borda ao redor dos elementos e definir o espaço entre os elementos.  
+    <br/><br/>  
+    
+<a href="index.html">Clique para voltar ao início da página</a> 
+</body>
+</html>
+
